@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meu Formulário!</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Meu Formulário de Teste</legend>
+				<!-- input-text -->
+				<div><input type="text" name="nome" placeholder="Digite o seu Nome"></div>
+				<div><input type="text" name="email" placeholder="Digite o seu Email"></div>
+				
+				<!-- select -->
+				<div>
+					<select name="lista-idade">
+						<option disabled selected>Qual a sua idade?</option>
+						<option>-18</option>
+						<option>18 á 30</option>
+						<option>31 á 60</option>
+						<option>61+</option>
+					</select>
+				</div>
+
+				<!-- input-radio -->
+				<h2>Em qual destas cidades você nasceu?</h2>
+				<div class="input">
+					<div>
+						<input type="radio" name="cidade" value="São Paulo"><span>São Paulo</span>
+					</div>
+					<div>
+						<input type="radio" name="cidade" value="Limeira"><span>Limeira</span>
+					</div>
+					<div>
+						<input type="radio" name="cidade" value="Santa Bárbara"><span>Santa Bárbara</span>
+					</div>
+					<div>
+						<input type="radio" name="cidade" value="Americana"><span>Americana</span>
+					</div>
+					<div>
+						<input type="radio" name="cidade" value="Florianópolis"><span>Florianópolis</span>
+					</div>
+				</div>
+
+				<!-- input-checkbox -->
+				<h2>Qual destes esportes você pratica?</h2>
+				<div class="input">
+					<div>
+						<input type="checkbox" name="esporte" value="Volei"><span>Volei</span>
+					</div>
+					<div>
+						<input type="checkbox" name="esporte" value="Futebol"><span>Futebol</span>
+					</div>
+					<div>
+						<input type="checkbox" name="esporte" value="Basquete"><span>Basquete</span>
+					</div>
+					<div>
+						<input type="checkbox" name="esporte" value="Tênis"><span>Tênis</span>
+					</div>
+					<div>
+						<input type="checkbox" name="esporte" value="Natação"><span>Natação</span>
+					</div>
+				</div>
+
+				<!-- textarea -->
+				<div>
+					<textarea placeholder="Possui alguma observação?"></textarea>
+				</div>
+
+				<!-- input-submit -->
+				<div>
+					<input type="submit" name="acao" value="Enviar">
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
